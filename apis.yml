@@ -1,8 +1,26 @@
 aid: pathios-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pathios-therapeutics.png
 name: Pathios Therapeutics
-description: Pathios Therapeutics is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Pathios Therapeutics is a clinical-stage oncology and immunology drug discovery
+  and development company based in Oxfordshire, United Kingdom, founded in 2017. The company
+  develops small-molecule inhibitors of the pH-sensing G protein-coupled receptor GPR65 to
+  counteract the immunosuppressive tumor microenvironment; its lead asset PTT-4256 is a
+  first-in-class GPR65 inhibitor now in a Phase 1/2 clinical trial. Backed by Canaan, Brandon
+  Capital, and a strategic investment from Bristol Myers Squibb, Pathios is a research-stage
+  biotech with no public API, developer platform, or technical integration surface. This
+  profile was surfaced as a portfolio company of canaan-partners and processed by the
+  enrichment pipeline, which confirmed there is no API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/pathios-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Immunology
+- Drug Discovery
+- Clinical Stage
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://pathiostherapeutics.com/
+- type: About
+  url: https://pathiostherapeutics.com/about-us/
+- type: News
+  url: https://pathiostherapeutics.com/news/
+- type: Contact
+  url: https://pathiostherapeutics.com/contact-us/
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/pathios-therapeutics-limited
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
